@@ -1,0 +1,91 @@
+*{margin:auto;}
+body{background-color:rgb(144, 235, 235);}
+div{
+    position:absolute;
+    background-color:; 
+    width:;height:;
+    margin-top: ;margin-left: ;margin-right: ; margin-bottom: ;
+    color: ;font-size: ;}
+
+.div1{
+    position:;
+    background-color:rgb(167, 190, 133);
+    width:100%;height:10%;
+    margin-top: ;margin-left: ;margin-right: ; margin-bottom: ;
+    color: ;font-size: ;text-align: }
+.div1 > h1{text-align:center;}
+.div1 > h2{text-align:left;margin-left:80px;}
+.div1 > h3{text-align:right;margin-right:10px;transform:translateY(-15px)}
+
+.div2{
+    position:;
+    background-color:rgb(226, 87, 87);
+    width:100%;height:5%;
+    margin-top: ;margin-left: ;margin-right: ; margin-bottom: ;
+    top:10%;right:;left:;bottom:;
+    color: ;font-size:40px;text-align:center;}
+.div2 > a{
+    padding-left: 200px;
+}
+
+.div3{
+    position:;
+    background-color:rgb(228, 225, 181);
+    width:40%;height:40%;
+    margin-top:;margin-left: ;margin-right:0px; margin-bottom: ;
+    top:16%;right:7%;left:;bottom:;
+    color:;font-size:35px;text-align: ;}
+
+.div4{
+    position:;
+    background-color:rgb(228, 225, 181);
+    width:40%;height:30%;
+    margin-top: ;margin-left: ;margin-right: ; margin-bottom: ;
+    top:60%;right:7%;left:;bottom:;
+    color: ;font-size:45px;text-align: ;}
+.div4 > ul{font-size:35px}
+
+.div5{
+    position:;
+    background-color:rgb(228, 225, 181);
+    width:40%;height:10%;
+    margin-top: ;margin-left: ;margin-right: ; margin-bottom: ;
+    top:94%;right:7%;left:;bottom:;
+    color: ;font-size:45px;text-align: ;}
+.div5 > ul{font-size:35px}
+
+.div6{
+    position:;
+    background-color:rgb(228, 225, 181);
+    width:48%;height:38%;
+    margin-top: ;margin-left: ;margin-right: ; margin-bottom: ;
+    top:116%;right:;left:3%;bottom:;
+    color: ;font-size:45px;text-align: ;}
+.div6 > ul{font-size:35px}
+
+.div7{
+    background-color:rgb(28, 31, 209); opacity:100%;
+    width:48%;height:%;
+    margin-top: ;margin-left: ;margin-right: ; margin-bottom: ;
+    top:115%;right:0%;left:;bottom:;
+    color:yellow;font-size:45px;text-align:;}
+
+.img1{
+    position:absolute;
+    background-color:;
+    width:50%;height:100%;
+    margin-top: ;margin-left: ;margin-right: ; margin-bottom: ;
+    top:16%;right:;left:3%;bottom:;
+    color: ;font-size: ;text-align: ;}
+
+.form1{
+    position:absolute;
+    width:30%;height:38%;
+    margin-top: ;margin-left: ;margin-right: ; margin-bottom: ;
+    top:153%;right:;left:0%;bottom:;
+    color: ;font-size:45px;text-align: ;}
+
+.i1{height:25px;width:260px;}
+.i2{height:30px;width:80px;}
+#i3{height:400px;width:700px;}
+#i4{height:25px;width:260px;}
