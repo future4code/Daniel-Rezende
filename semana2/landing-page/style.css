@@ -1,0 +1,57 @@
+*{margin:auto;} /*estou definindo a margem como auto para não ter bordas*/
+
+#header1{ 
+    position:absolute;
+    width:100%;height:50%;
+    background-color:#F2F2F2; border-bottom:10px solid black;
+    top:;right:;bottom:;left:;}
+#header1 > img{position: absolute;width:50%;height:100%;left:10%;}
+#header1 > div{position:absolute;width:40%;height:100%; right:0px;font-size:60px;padding-top:60px;}/*aqui eu estou definindo a cabeçalho da pagina e todas as propriedades especificas para cada elemento dentro dele(div e imagem )*/
+
+.parteprincipal{ position:absolute; 
+    width:100%;height:50%; border-bottom:10px solid black;background-color:#8C675A; font-size:60px;}/*aqui estou definindo os atributos das seções principais da pagina, onde esta o "marketing" da empresa*/
+
+#section1{top:51%;} 
+#section1 > #motoqueiro{position:absolute;width:25%;height:50%;right:25%;}
+#section1 > #caminhoneiro{position:absolute;width:25%;height:50%;right:0%;}
+#section1 > #entrega{position:absolute;width:50%;height:50%;right:0px;bottom:0px}
+#section1 > div{position:absolute;width:50%;height:100%; left:0px;padding-top:60px;}/*definindo os atributos das imagens e da div dentro da seção 1 do main*/
+
+#section2{top:102%;}
+#section2 > #cesta{position: absolute;width:50%;height:50%;bottom: 0px;}
+#section2 > #banquete{position: absolute;width:50%;height:50%;}
+#section2 > div{position: absolute;width:50%;height:50%;right:0px;padding-top:80px;}/*definindo os atributos das imagens e da div dentro da seção 2 do main**/
+
+#section3{top:153%;}
+#section3 > #homemcansado{position: absolute;width:50%;height:50%;right:0px;}
+#section3 > #compraonline{position: absolute;width:50%;height:50%;bottom:0px;right:0px;}
+#section3 > div{position: absolute;width:50%;height:50%;left:0px;}
+/*definindo os atributos das imagens e da div dentro da seção 3 do main**/
+
+#redes{position: absolute;width:100%;height:50%;top:204%;
+background-color:#592411;color:#F2F2F2;font-size:50px;        
+}
+a{color:black;}
+/*stilizando a área das redes sociais da empresa*/
+
+#questoes{position: absolute;width:100%;height:100%;top:254%;
+    right:0px;border-top:10px solid black;
+    background-color:#F2F2F2;font-size:60px;}
+.questao{position: absolute;width:50%;height:50%;border:1px solid black;background-color:#BFACA4;}
+#a{top:0px;left:0px;}
+#b{top:0px;right:0px;}
+#c{bottom:0px;left:0px;}
+#d{bottom:0px;right:0px;}
+/*estilizando o footer da pagina, onde ficará o rodapé com as questões sobre a empresa*/
+
+@media(min-width:280px) and (max-width:1280px){
+    #header1{height:50%;}
+    #header1 > img{ width:100%; height:80%; left:0px;}
+    #header1 > div{bottom:0px; height:3%;width:100%;}
+    #header1 > div > p {position:absolute; top:0px; font-size:20px}
+    .parteprincipal > div{font-size:22px;}
+
+    #redes{font-size:28px;}
+    .questao {font-size: 22px; text-align: center;}
+}  /*definindo um media querie pra fazer pequenos ajustes para que a visualização em dispositivos moveis fique adequada*/
+    
