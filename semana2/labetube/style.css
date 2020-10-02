@@ -1,0 +1,46 @@
+*{margin: auto;}
+header{
+    width:100vw;
+    height:6vh;
+    background-color: red;
+    color:blue;
+    font-size:40px;
+}
+input{position:absolute;height:20px;width:400px;top:10px;right:10px;}
+main{
+    display: inline-grid;
+    background-color: rgb(207, 240, 240);
+    grid-template-rows:40vh 40vh;
+    grid-template-columns:repeat(4, 24.5vw);
+    grid-gap:10px;
+    border-top: 5px double green;
+    border-bottom: 5px double green;
+}
+section{
+    height:80%;
+    width:80%;
+    background-color: aqua;
+    font-size:30px;
+    color:purple;
+    text-align: center;
+}
+
+img{
+    width:100%;
+    height:80%;
+}
+
+footer{
+    position: absolute;
+    bottom:0px;
+    background-color:rgb(230, 230, 202);
+    width:100%;
+    height:11%;
+}
+footer > *{position: absolute;}
+.imgfoter{
+    position: absolute;
+    width:200px;
+    height:100%;}
+
+
