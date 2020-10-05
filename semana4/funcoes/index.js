@@ -267,7 +267,7 @@ b - Amanda e Caio
 */
 
 //EXERCICIO DE ESCRITA
-/*function minhasInformacoes(){
+function minhasInformacoes(){
     console.log("Eu sou daniel, tenho 19 anos, moro em belém e sou estudante de programação e desenvolvimento")
 }
 function informacaoUsuario(nome , idade, cidade, estudante){
@@ -300,11 +300,10 @@ function verificarRelacaoNum(num1, num2){
 console.log(verificarRelacaoNum(40, 40))
 
 function imprimirMensagem(mensagem){
-   let contador = 1
-    while(contador <= 10){
-        contador++
-     console.log(mensagem)  
-    }
+   for(contador = 0;contador < 10;contador++){
+   console.log(mensagem)
+   }
+ 
 }
 imprimirMensagem("ta pegandooo!!!")
 
@@ -343,7 +342,7 @@ function devolverParesArray(array){
     }    
     return numerosPares
 }
-console.log(devolverParesArray([10, 23, 45, 78, 90, 52, 35, 67, 84, 22]))*/
+console.log(devolverParesArray([10, 23, 45, 78, 90, 52, 35, 67, 84, 22]))
 
 //DESAFIO EXTRA
 let imprimirParametro = (mensagem) => {
