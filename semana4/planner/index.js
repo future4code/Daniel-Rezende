@@ -33,6 +33,6 @@ function criarTarefa(){
             divsabado.append(tarefaValor)
             break        
     }
-    tarefaValor = ""
+    tarefaValor.innerHTML = ""
     return
 }
