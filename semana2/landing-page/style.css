@@ -45,6 +45,7 @@ a{color:black;}
 /*estilizando o footer da pagina, onde ficará o rodapé com as questões sobre a empresa*/
 
 @media(min-width:280px) and (max-width:1280px){
+
     #header1{height:50%;}
     #header1 > img{ width:100%; height:80%; left:0px;}
     #header1 > div{bottom:0px; height:3%;width:100%;}
