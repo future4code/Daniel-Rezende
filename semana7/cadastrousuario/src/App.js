@@ -85,12 +85,20 @@ class App extends Component{
 
   deletarUsuario = (users) => {
     axios
-    .delete('https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users/',{
+    .delete('https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users/${users.id}',{
       headers:{
         Authorization: "daniel-henrique-dumont"
       }
     })
-  }
+    .then(response => { 
+      alert("Usuário " + response + " deletado com sucesso");
+
+    })
+    .catch((error) => {
+      console.log(error.message);
+    });
+};
+  
 
   mudarPagina = e => {
     this.setState({areaCadastro:!this.state.areaCadastro})
@@ -125,7 +133,7 @@ else{return (
         
         <ul>
         {this.state.cadastrados.map(users => <li key={users}>{users.name}
-        <button onClick={() => this.deletarUsuario(users)}type="button">Remover</button>
+        <button onClick={() => this.deletarUsuario(users.id)}type="button">Remover</button>
         </li> )}
         </ul>
 
