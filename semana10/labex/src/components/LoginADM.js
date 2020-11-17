@@ -1,11 +1,15 @@
 import react,{useState, useEffect} from 'react'
 import styled from 'styled-components'
 import axios from 'axios'
+import { useHistory } from "react-router-dom";
 
-function LoginADM() {
+export default function LoginADM() {
+  const history = useHistory() 
+
+  const irParaHome = () => history.push('/')
     return (
       <>
-        
+        <button onClick={irParaHome}>Voltar para Home</button>
       </>
     );
   }
