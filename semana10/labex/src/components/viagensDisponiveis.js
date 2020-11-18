@@ -10,11 +10,12 @@ const ContainerViagens = styled.div`
   width:100vw;
   height:100vh;
   background-color:purple;
-    #left{grid-area:1/1/12/6;display:grid;grid-gap:35px;}
-    #left > div{background-color:black; }
-    #right{grid-area:8/8/1/13;display:grid;grid-gap:37px;}
-    #right > div{background-color:black;}
-    img{width:40%;height:100%;}
+    #left{grid-area:1/1/12/6;   display:grid;  grid-gap:30px;}
+    #left > div{background-color:gray;border:2px solid black; }
+    #right{grid-area:8/8/1/13;display:grid;grid-gap:30px;}
+    #right > div{background-color:gray;border:2px solid black;}
+    img{width:40%;height:100%;padding-right:1000px;}
+    button{background-color:black;color:white;position:relative; margin-right:0px;}
 `
 export default function Viagens() {
   const history = useHistory() 
@@ -24,16 +25,40 @@ export default function Viagens() {
       <ContainerViagens>
         
         <div id="left">
-          <div> <img src={'https://i0.statig.com.br/bancodeimagens/6w/uy/ep/6wuyep32ihcnwln027arx61gl.jpg'}/>  </div>
-          <div> <img src={'https://i0.statig.com.br/bancodeimagens/6w/uy/ep/6wuyep32ihcnwln027arx61gl.jpg'}/>  </div>
-          <div> <img src={'https://i0.statig.com.br/bancodeimagens/6w/uy/ep/6wuyep32ihcnwln027arx61gl.jpg'}/>  </div>
-          <div> <img src={'https://i0.statig.com.br/bancodeimagens/6w/uy/ep/6wuyep32ihcnwln027arx61gl.jpg'}/> </div>  </div>
+          <div> 
+            <button>Cadastrar</button>
+            <img src={'https://i0.statig.com.br/bancodeimagens/6w/uy/ep/6wuyep32ihcnwln027arx61gl.jpg'}/>  
+          </div>
+          <div> 
+            <button>Cadastrar</button>
+            <img src={'https://i0.statig.com.br/bancodeimagens/6w/uy/ep/6wuyep32ihcnwln027arx61gl.jpg'}/>  
+            </div>
+          <div>
+             <button>Cadastrar</button>
+             <img src={'https://i0.statig.com.br/bancodeimagens/6w/uy/ep/6wuyep32ihcnwln027arx61gl.jpg'}/>  
+             </div>
+          <div>
+             <button>Cadastrar</button>
+             <img src={'https://i0.statig.com.br/bancodeimagens/6w/uy/ep/6wuyep32ihcnwln027arx61gl.jpg'}/> 
+             </div>  </div>
         
         <div id="right">
-          <div> <img src={'https://i0.statig.com.br/bancodeimagens/6w/uy/ep/6wuyep32ihcnwln027arx61gl.jpg'}/>  </div>
-          <div> <img src={'https://i0.statig.com.br/bancodeimagens/6w/uy/ep/6wuyep32ihcnwln027arx61gl.jpg'}/>  </div>
-          <div> <img src={'https://i0.statig.com.br/bancodeimagens/6w/uy/ep/6wuyep32ihcnwln027arx61gl.jpg'}/>  </div>
-          <div> <img src={'https://i0.statig.com.br/bancodeimagens/6w/uy/ep/6wuyep32ihcnwln027arx61gl.jpg'}/>  </div> </div>
+          <div>
+            <button>Cadastrar</button> 
+            <img src={'https://i0.statig.com.br/bancodeimagens/6w/uy/ep/6wuyep32ihcnwln027arx61gl.jpg'}/>  
+            </div>
+          <div> 
+            <button>Cadastrar</button>
+            <img src={'https://i0.statig.com.br/bancodeimagens/6w/uy/ep/6wuyep32ihcnwln027arx61gl.jpg'}/>  
+            </div>
+          <div> 
+            <button>Cadastrar</button>
+            <img src={'https://i0.statig.com.br/bancodeimagens/6w/uy/ep/6wuyep32ihcnwln027arx61gl.jpg'}/>  
+            </div>
+          <div> 
+            <button>Cadastrar</button>
+            <img src={'https://i0.statig.com.br/bancodeimagens/6w/uy/ep/6wuyep32ihcnwln027arx61gl.jpg'}/>  
+            </div> </div>
      
       </ContainerViagens>
     );

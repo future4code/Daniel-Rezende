@@ -4,7 +4,7 @@ import Cadastro from './cadastro'
 import CriarViagem from './CriarViagem'
 import DetalhesViagens from './DetalhesDaViagem'
 import Home from './Home'
-import LoginADM from './LoginADM'
+import Login from './Login'
 import Viagens from './viagensDisponiveis'
 
 export default function Rotas() {
@@ -17,7 +17,7 @@ export default function Rotas() {
         </Route>
 
         <Route exact path="/login">
-          <LoginADM />
+          <Login />
         </Route>
         
         <Route exact path="/cadastro">

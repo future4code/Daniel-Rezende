@@ -9,6 +9,8 @@ export default function Home() {
   const irParaLogin = () => history.push("/login")
   const irParaCadastro = () => history.push("/cadastro") 
   const irParaViagens = () => history.push("/Viagens/ver")
+
+  
     return (
       <>
         <h1>aqui é a home</h1>
