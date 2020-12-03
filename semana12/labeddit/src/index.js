@@ -1,14 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Cadastro from './components/cadastro'
-import Feeds from './components/feeds'
-import Login from './components/login'
-import Post from './components/post'
-
+import Rotas from './components/rotas'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Post/>
+    <Rotas/>
   </React.StrictMode>,
   document.getElementById('root')
 );

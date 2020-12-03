@@ -12,9 +12,11 @@ const Main = styled.main`
     input{width:100%;height:20%;font-size:1.8em;text-align: center; margin-top:8vh;background-color: greenyellow;}
     button{width:50%;height:20%;margin-top:30px;font-size:32px;
     background-color:#819FF7;}
+    a{margin-left:20px; font-size:20px;}
 `
 
 export default function Login(){
+   
     const logar = () => alert('logado com sucesso')
     return(
     <Main>
@@ -23,6 +25,7 @@ export default function Login(){
         <input type={'email'}placeholder={'E-mail'}></input>
         <input type={'password'}placeholder={'Senha'}></input>
         <button>Logar</button>
+        <a href='/'>Não tem cadastro?</a>
       </form>
     </Main>
     )

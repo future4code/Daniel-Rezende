@@ -27,7 +27,7 @@ function Comentario(props) {
         </div>
     )
 }
-export default function Post(props){
+export default function Posts(props){
     return(
         <Main>
             <div id='postagem'>

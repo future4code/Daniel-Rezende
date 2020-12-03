@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styled from 'styled-components'
 import ThumbUpIcon from '@material-ui/icons/ThumbUp';
 import ThumbDownAltIcon from '@material-ui/icons/ThumbDownAlt';
@@ -22,12 +22,14 @@ background-color:rgb(206, 230, 230);
     #deslike{position: absolute;width:10%;height:100%; left:15%;}
     #detalhes{position: absolute;width:40%;height:45%;right:0;bottom:12px;font-size:20px;background-color:#819FF7;}
 `
-function Feed(props){
+
+function Feed(){
+    
     return(
         
     <main className='post'>
-        <p id='nome'>{props.nome}</p>
-        <p id='texto'>{props.texto}</p>
+        <p id='nome'>daniel</p>
+        <p id='texto'></p>
         <p id='reacoes'>
           <ThumbUpIcon id='like' color='primary'/>
           <ThumbDownAltIcon id='deslike' color='secondary'/>
@@ -39,21 +41,25 @@ function Feed(props){
 }
 
 export default function Feeds(){
+    
+    
     return(
         <Main>
             
             <div>
-                <input type='text' id='postar'/>
-                <button id='botaoPostar'>postar</button>
-            </div>
+                <input 
+                type='text' 
+                id='postar'/>
+                <button onClick='criarPostagem' id='botaoPostar'>postar</button>
+            </div>  
                 
           
-            <Feed nome='daniel henrique' texto='um texto aleatorio'/>
-            <Feed nome='joana albuquerque' texto='um texto aleatorio'/>
-            <Feed nome='angelo tavares' texto='um texto aleatorio'/>
-            <Feed nome='irlan macaréu' texto='um texto aleatorio'/> 
-            <Feed nome='irlan macaréu' texto='um texto aleatorio'/>
-            <Feed nome='irlan macaréu' texto='um texto aleatorio'/>
+            <Feed />
+            <Feed />
+            <Feed />
+            <Feed /> 
+            <Feed />
+            <Feed />
             
               
         </Main>
