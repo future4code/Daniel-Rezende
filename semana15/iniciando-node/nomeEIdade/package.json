@@ -1,0 +1,12 @@
+{
+  "name": "nomeeidade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dados.js",
+  "scripts": {
+    "dados": "node dados.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

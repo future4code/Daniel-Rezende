@@ -1,0 +1,12 @@
+{
+  "name": "tarefas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tarefas.js",
+  "scripts": {
+    "tarefas":"node tarefas.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
