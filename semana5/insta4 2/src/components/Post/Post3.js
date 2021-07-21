@@ -8,7 +8,7 @@ import iconeCoracaoPreto from '../../img/favorite.svg'
 import iconeComentario from '../../img/comment_icon.svg'
 import {SecaoComentario} from '../SecaoComentario/SecaoComentario'
 
-class Post3 extends React.Component {
+class Post extends React.Component {
   state = {
     curtido: false,
     numeroCurtidas: 0,
@@ -29,7 +29,7 @@ class Post3 extends React.Component {
   aoEnviarComentario = () => {
     this.setState({
       comentando: false,
-      numeroComentarios: this.state.numeroComentarios + 3
+      numeroComentarios: this.state.numeroComentarios + 1
     })
   }
 
@@ -74,4 +74,4 @@ class Post3 extends React.Component {
   }
 }
 
-export default Post3
+export default Post
