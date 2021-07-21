@@ -1,0 +1,15 @@
+{
+  "name": "operacoes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dividir.js",
+  "scripts": {
+    "somar": "node somar.js",
+    "subtrair":"node subtrair.js",
+    "multiplicar":"node multiplicar.js",
+    "dividir":"node dividir.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
